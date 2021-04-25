@@ -1,0 +1,20 @@
+# format options
+--allman false
+--fractiongrouping enabled
+--self init-only
+--stripunusedargs closure-only
+--voidtype void
+--wrapparameters before-first
+--wrapcollections before-first
+--typeattributes prev-line
+--indent 4
+
+# file options
+--exclude Pods, Generated, Spar.v2_ios, Modules/Legacy
+
+# rules
+--disable preferKeyPath
+--disable redundantObjc
+--disable redundantParens
+--disable strongOutlets
+--disable trailingCommas

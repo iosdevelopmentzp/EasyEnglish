@@ -87,7 +87,6 @@
 				CDB29AD2FDAA64912CC45735 /* Pods-EasyEnglish.debug.xcconfig */,
 				8DB42229ED6C88D1EEEE07E4 /* Pods-EasyEnglish.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -102,6 +101,7 @@
 				3B9498112635B38F008BCCEE /* Sources */,
 				3B9498122635B38F008BCCEE /* Frameworks */,
 				3B9498132635B38F008BCCEE /* Resources */,
+				3BB9E0562635C14000313F55 /* Application Run Scripts */,
 			);
 			buildRules = (
 			);
@@ -157,6 +157,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3BB9E0562635C14000313F55 /* Application Run Scripts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Application Run Scripts";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\" \"$SRCROOT\"\n\"${PODS_ROOT}/SwiftLint/swiftlint autocorrect\"\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
 		6C54D3B1D2BCCF5E88663A8A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
