@@ -1,10 +1,12 @@
 PODS:
+  - Coordinator (0.0.1)
   - Core (0.0.1)
   - SwiftFormat/CLI (0.46.2)
   - SwiftGen (6.2.1)
   - SwiftLint (0.40.3)
 
 DEPENDENCIES:
+  - Coordinator (from `./Modules/Coordinator`)
   - Core (from `./Modules/Core`)
   - SwiftFormat/CLI (= 0.46.2)
   - SwiftGen (= 6.2.1)
@@ -17,15 +19,18 @@ SPEC REPOS:
     - SwiftLint
 
 EXTERNAL SOURCES:
+  Coordinator:
+    :path: "./Modules/Coordinator"
   Core:
     :path: "./Modules/Core"
 
 SPEC CHECKSUMS:
+  Coordinator: 35dca23a008450e3da3d6486b82438302e5b1ee0
   Core: 3d9ff91cceeafde28a602c88bace891b07551c21
   SwiftFormat: 46baf677c105265a99b488b51cd062e23eb2fc14
   SwiftGen: 62e69d127507be1538d4263e137b2290cd6ab272
   SwiftLint: dfd554ff0dff17288ee574814ccdd5cea85d76f7
 
-PODFILE CHECKSUM: 8289d6264e8b907b6f61695a4be660ee82d3e577
+PODFILE CHECKSUM: a31f4023a21b6fba72b59b33042032bddf4ba779
 
 COCOAPODS: 1.10.0

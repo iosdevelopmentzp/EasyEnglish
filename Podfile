@@ -16,6 +16,7 @@ end
 
 def core_pods
   pod "Core", :path => "./Modules/Core"
+  pod "Coordinator", :path => "./Modules/Coordinator"
 end
 
 def external_pods
