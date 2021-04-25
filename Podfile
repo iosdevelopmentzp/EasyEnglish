@@ -9,13 +9,26 @@ install! 'cocoapods',
 :clean => true,
 :disable_input_output_paths => true
 
-target 'EasyEnglish' do
-
+def project_utils_pods
 # Project utils
   pod 'SwiftLint', '0.40.3'
   pod 'SwiftFormat/CLI', '0.46.2'
   pod 'SwiftGen', '6.2.1'
+end
 
+def core_pods
+
+end
+
+def feature_pods
+
+end
+
+target 'EasyEnglish' do
+	use_frameworks!
+	project_utils_pods
+	core_pods
+	feature_pods
 end
 
 post_install do |installer|
