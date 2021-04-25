@@ -11,18 +11,17 @@ import UIKit
 
 open class BaseNavigationCoordinator: Coordinator {
     // MARK: - Properties
-    
-    private let presenter: UINavigationController
-    
+
+    public let presenter: UINavigationController
     public var children: [Coordinator] = []
     public var parent: Coordinator?
-    
+
     // MARK: - Constructor
-    
+
     public init(presenter: UINavigationController) {
         self.presenter = presenter
     }
-    
+
     // MARK: - Functions
 
     open func start() {

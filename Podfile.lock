@@ -1,36 +1,71 @@
 PODS:
+  - Authorization (0.0.1):
+    - Core
+    - RxCocoa
+    - RxSwift
+    - SnapKit
   - Coordinator (0.0.1)
+  - Coordinators (0.0.1):
+    - Authorization
+    - Coordinator
+    - Core
   - Core (0.0.1)
+  - RxCocoa (6.1.0):
+    - RxRelay (= 6.1.0)
+    - RxSwift (= 6.1.0)
+  - RxRelay (6.1.0):
+    - RxSwift (= 6.1.0)
+  - RxSwift (6.1.0)
+  - SnapKit (5.0.0)
   - SwiftFormat/CLI (0.46.2)
   - SwiftGen (6.2.1)
   - SwiftLint (0.40.3)
 
 DEPENDENCIES:
+  - Authorization (from `./Modules/Authorization`)
   - Coordinator (from `./Modules/Coordinator`)
+  - Coordinators (from `./Modules/Coordinators`)
   - Core (from `./Modules/Core`)
+  - RxCocoa (= 6.1.0)
+  - RxSwift (= 6.1.0)
+  - SnapKit (= 5.0.0)
   - SwiftFormat/CLI (= 0.46.2)
   - SwiftGen (= 6.2.1)
   - SwiftLint (= 0.40.3)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
     - SwiftFormat
     - SwiftGen
     - SwiftLint
 
 EXTERNAL SOURCES:
+  Authorization:
+    :path: "./Modules/Authorization"
   Coordinator:
     :path: "./Modules/Coordinator"
+  Coordinators:
+    :path: "./Modules/Coordinators"
   Core:
     :path: "./Modules/Core"
 
 SPEC CHECKSUMS:
+  Authorization: bf953c1a9ed2b698ff61a3504dabe1ae3ebc8e54
   Coordinator: 35dca23a008450e3da3d6486b82438302e5b1ee0
+  Coordinators: f85126d9409208283d6c03c6eda1af27c1f7756b
   Core: 3d9ff91cceeafde28a602c88bace891b07551c21
+  RxCocoa: 5c51f02d562cbd94629f6c26cf0c80fe4ab8d343
+  RxRelay: 483e1a19fad961b41f0b0c0bee506f46c1ae14fe
+  RxSwift: a834e5c538e89eca0cae86f403f4fbf0336786ce
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
   SwiftFormat: 46baf677c105265a99b488b51cd062e23eb2fc14
   SwiftGen: 62e69d127507be1538d4263e137b2290cd6ab272
   SwiftLint: dfd554ff0dff17288ee574814ccdd5cea85d76f7
 
-PODFILE CHECKSUM: a31f4023a21b6fba72b59b33042032bddf4ba779
+PODFILE CHECKSUM: 33c9b6677c67ed577c515d98e86dffe30b5432a6
 
 COCOAPODS: 1.10.0

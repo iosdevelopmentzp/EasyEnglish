@@ -1,3 +1,6 @@
+included:
+  - Modules
+
 opt_in_rules:
   - indentation_width
   - anyobject_protocol
