@@ -25,7 +25,6 @@ xcuserdata/
 ## OS X temporary files
 *.DS_Store
 *.swp
-*.lock
 
 ## Xcode temporary files
 *~.nib
