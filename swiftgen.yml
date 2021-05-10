@@ -1,0 +1,15 @@
+strings:
+ inputs: Modules/AppResources/AppResources/AppResources/Resources/en.lproj/Localizable.strings
+ outputs:
+   templatePath: SwiftGenTemplates/Localization/flat-swift5.stencil
+   output: Modules/AppResources/AppResources/AppResources/Localization/Strings.swift
+   params:
+        enumName: Strings
+
+xcassets:
+ inputs: Modules/AppResources/AppResources/AppResources/Resources/AppImages.xcassets
+ outputs:
+   templatePath: SwiftGenTemplates/Images/swift5.stencil
+   output: Modules/AppResources/AppResources/AppResources/AppImages/AppImages.swift
+   params:
+        enumName: AppImages
