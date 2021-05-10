@@ -1,3 +1,6 @@
+included:
+  - Modules
+
 opt_in_rules:
   - indentation_width
   - anyobject_protocol
@@ -132,10 +135,8 @@ opt_in_rules:
   - trailing_newline
   - trailing_semicolon
   - trailing_whitespace
-  # - type_body_length
   - type_contents_order
   - type_name
-  - unavailable_function
   - unneeded_break_in_switch
   - unneeded_parentheses_in_closure_argument
   - unowned_variable_capture

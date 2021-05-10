@@ -10,7 +10,7 @@
 --indent 4
 
 # file options
---exclude Pods, Generated, Spar.v2_ios, Modules/Legacy
+--exclude Pods, Generated
 
 # rules
 --disable preferKeyPath

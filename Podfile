@@ -1,5 +1,6 @@
 platform :ios, '12.0'
 
+use_frameworks!
 source 'https://github.com/CocoaPods/Specs.git'
 ENV['COCOAPODS_DISABLE_STATS'] = 'true'
 
@@ -14,12 +15,19 @@ def project_utils_pods
   pod 'SwiftGen', '6.2.1'
 end
 
-def core_pods
-  pod "Core", :path => "./Modules/Core"
+def external_pods
+  # Rx
+  pod "RxSwift", '6.1.0'
+  pod "RxCocoa", '6.1.0'
+  # UI
+  pod "SnapKit", '5.0.0'
 end
 
-def external_pods
-  
+def core_pods
+  pod "Core", :path => "./Modules/Core"
+  pod "Coordinator", :path => "./Modules/Coordinator"
+  pod "Coordinators", :path => "./Modules/Coordinators"
+  pod "Authorization", :path => "./Modules/Authorization"
 end
 
 def feature_pods
@@ -30,8 +38,8 @@ inhibit_all_warnings!
 
 target 'EasyEnglish' do
   use_frameworks!
-  project_utils_pods
   external_pods
+  project_utils_pods
   core_pods
   feature_pods
 end
