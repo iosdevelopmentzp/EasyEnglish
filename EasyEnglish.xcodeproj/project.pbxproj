@@ -11,7 +11,6 @@
 		3B9498192635B38F008BCCEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9498182635B38F008BCCEE /* AppDelegate.swift */; };
 		3B9498222635B391008BCCEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B9498212635B391008BCCEE /* Assets.xcassets */; };
 		6571697526499F830058DCB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6571697426499F830058DCB4 /* LaunchScreen.storyboard */; };
-		657169DB2649A3550058DCB4 /* Localize.strings in Resources */ = {isa = PBXBuildFile; fileRef = 657169DD2649A3550058DCB4 /* Localize.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +20,6 @@
 		3B9498262635B391008BCCEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		517010FD5DB1ABC0A2B8C9C0 /* Pods_EasyEnglish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyEnglish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6571697426499F830058DCB4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		657169DC2649A3550058DCB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localize.strings; sourceTree = "<group>"; };
-		657169DF2649A3580058DCB4 /* ru-RU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ru-RU"; path = "ru-RU.lproj/Localize.strings"; sourceTree = "<group>"; };
 		79F42953B6C17123836FC432 /* Pods-EasyEnglish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyEnglish.debug.xcconfig"; path = "Target Support Files/Pods-EasyEnglish/Pods-EasyEnglish.debug.xcconfig"; sourceTree = "<group>"; };
 		BBC952A563B84ECC24FEDFCD /* Pods-EasyEnglish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyEnglish.release.xcconfig"; path = "Target Support Files/Pods-EasyEnglish/Pods-EasyEnglish.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,7 +69,6 @@
 				3B9498212635B391008BCCEE /* Assets.xcassets */,
 				3B9498262635B391008BCCEE /* Info.plist */,
 				6571697426499F830058DCB4 /* LaunchScreen.storyboard */,
-				657169DD2649A3550058DCB4 /* Localize.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -156,7 +152,6 @@
 			files = (
 				3B9498222635B391008BCCEE /* Assets.xcassets in Resources */,
 				6571697526499F830058DCB4 /* LaunchScreen.storyboard in Resources */,
-				657169DB2649A3550058DCB4 /* Localize.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,18 +225,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		657169DD2649A3550058DCB4 /* Localize.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				657169DC2649A3550058DCB4 /* en */,
-				657169DF2649A3580058DCB4 /* ru-RU */,
-			);
-			name = Localize.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3B9498272635B391008BCCEE /* Debug */ = {
