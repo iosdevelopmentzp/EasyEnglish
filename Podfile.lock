@@ -1,4 +1,5 @@
 PODS:
+  - AppResources (0.0.1)
   - Authorization (0.0.1):
     - Core
     - RxCocoa
@@ -22,6 +23,7 @@ PODS:
   - SwiftLint (0.40.3)
 
 DEPENDENCIES:
+  - AppResources (from `./Modules/AppResources`)
   - Authorization (from `./Modules/Authorization`)
   - Coordinator (from `./Modules/Coordinator`)
   - Coordinators (from `./Modules/Coordinators`)
@@ -44,6 +46,8 @@ SPEC REPOS:
     - SwiftLint
 
 EXTERNAL SOURCES:
+  AppResources:
+    :path: "./Modules/AppResources"
   Authorization:
     :path: "./Modules/Authorization"
   Coordinator:
@@ -54,6 +58,7 @@ EXTERNAL SOURCES:
     :path: "./Modules/Core"
 
 SPEC CHECKSUMS:
+  AppResources: fa361d5c74d2fd61f9f91ec9ecb300ecfb1c4b54
   Authorization: bf953c1a9ed2b698ff61a3504dabe1ae3ebc8e54
   Coordinator: 35dca23a008450e3da3d6486b82438302e5b1ee0
   Coordinators: f85126d9409208283d6c03c6eda1af27c1f7756b
@@ -66,6 +71,6 @@ SPEC CHECKSUMS:
   SwiftGen: 62e69d127507be1538d4263e137b2290cd6ab272
   SwiftLint: dfd554ff0dff17288ee574814ccdd5cea85d76f7
 
-PODFILE CHECKSUM: 33c9b6677c67ed577c515d98e86dffe30b5432a6
+PODFILE CHECKSUM: 3f8864ec749b0890a554b6e9ab5ea19a93d1a024
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.10.1

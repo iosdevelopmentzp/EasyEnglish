@@ -24,6 +24,7 @@ def external_pods
 end
 
 def core_pods
+  pod  "AppResources", :path => "./Modules/AppResources"
   pod "Core", :path => "./Modules/Core"
   pod "Coordinator", :path => "./Modules/Coordinator"
   pod "Coordinators", :path => "./Modules/Coordinators"
