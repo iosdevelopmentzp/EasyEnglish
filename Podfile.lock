@@ -58,7 +58,7 @@ EXTERNAL SOURCES:
     :path: "./Modules/Core"
 
 SPEC CHECKSUMS:
-  AppResources: c06dce07153956a5cca22f9574394c473099feb9
+  AppResources: fa361d5c74d2fd61f9f91ec9ecb300ecfb1c4b54
   Authorization: bf953c1a9ed2b698ff61a3504dabe1ae3ebc8e54
   Coordinator: 35dca23a008450e3da3d6486b82438302e5b1ee0
   Coordinators: f85126d9409208283d6c03c6eda1af27c1f7756b

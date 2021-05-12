@@ -2,7 +2,8 @@
 //  AppResources.h
 //  AppResources
 //
-//  Created by Vorko Dmitriy on 10.05.2021.
+//  Created by alex borisoft on 08.09.2020.
+//  Copyright © 2020 com.65apps. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
