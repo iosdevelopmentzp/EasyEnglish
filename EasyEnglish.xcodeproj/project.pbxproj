@@ -189,7 +189,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"$PODS_ROOT\"/SwiftGen/bin/swiftgen config run --config \"$PROJECT_DIR\"/swiftgen.yml\n\"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\" \"$SRCROOT\"\n\"${PODS_ROOT}/SwiftLint/swiftlint autocorrect\"\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+			shellScript = "\"$PODS_ROOT\"/SwiftGen/bin/swiftgen config run --config \"$PROJECT_DIR\"/Modules/AppResources/AppResources/swiftgen.yml\n\"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\" \"$SRCROOT\"\n\"${PODS_ROOT}/SwiftLint/swiftlint autocorrect\"\n\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
 		C6706102DF1C0A3EE1B1408F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
